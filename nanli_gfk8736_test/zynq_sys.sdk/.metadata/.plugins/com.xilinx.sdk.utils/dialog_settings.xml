@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\boot_bin" key="bootgen_files_selection"/>
+	<item value="E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\fsbl_s\Debug" key="zynq_flash_files_selection"/>
+	<item value="E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\fsbl_s\Debug" key="last_stored_selection"/>
+</section>

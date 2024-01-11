@@ -1,0 +1,61 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port ddr -pg 1 -lvl 4 -x 1210 -y 540 -defaultsOSRD
+preplace port fixed_io -pg 1 -lvl 4 -x 1210 -y 560 -defaultsOSRD
+preplace port m0_axi_lite -pg 1 -lvl 4 -x 1210 -y 800 -defaultsOSRD
+preplace port UART_0_0 -pg 1 -lvl 4 -x 1210 -y 580 -defaultsOSRD
+preplace port m_axi_lite_aclk -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port m_axi_lite_aresetn -pg 1 -lvl 0 -x 0 -y 820 -defaultsOSRD
+preplace port fclk0_resetn -pg 1 -lvl 4 -x 1210 -y 660 -defaultsOSRD
+preplace port fclk0_aclk -pg 1 -lvl 4 -x 1210 -y 600 -defaultsOSRD
+preplace port dsp_io_0 -pg 1 -lvl 4 -x 1210 -y 160 -defaultsOSRD
+preplace port ema_wen_0 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port ema_oen_0 -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port ema_csn_0 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port ema_clk_p_0 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port zynq_req_0 -pg 1 -lvl 4 -x 1210 -y 180 -defaultsOSRD
+preplace portBus ema_wen_dqm_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace portBus ema_d_i_0 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace portBus ema_a_0 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace portBus ema_d_o_0 -pg 1 -lvl 4 -x 1210 -y 140 -defaultsOSRD
+preplace portBus ema_ba_0 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 610 -y 600 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 3 -x 1040 -y 800 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 610 -y 340 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 480 -defaultsOSRD
+preplace inst axi_emif_0 -pg 1 -lvl 3 -x 1040 -y 160 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 590 380 170 830 600 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 30 720 NJ 720 880 660 NJ
+preplace netloc m_axi_lite_aclk_1 1 0 2 NJ 580 NJ
+preplace netloc m_axi_lite_aresetn_1 1 0 3 NJ 820 NJ 820 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 390 200 840
+preplace netloc axi_emif_0_dsp_io 1 3 1 NJ 160
+preplace netloc ema_wen_dqm_0_1 1 0 3 20J 130 NJ 130 890J
+preplace netloc ema_wen_0_1 1 0 3 20J 190 NJ 190 870J
+preplace netloc ema_d_i_0_1 1 0 3 NJ 200 370J 210 860J
+preplace netloc ema_a_0_1 1 0 3 NJ 140 NJ 140 NJ
+preplace netloc axi_emif_0_ema_d_o 1 3 1 NJ 140
+preplace netloc ema_ba_0_1 1 0 3 NJ 120 NJ 120 NJ
+preplace netloc ema_oen_0_1 1 0 3 NJ 180 NJ 180 NJ
+preplace netloc ema_csn_0_1 1 0 3 NJ 100 NJ 100 NJ
+preplace netloc ema_clk_p_0_1 1 0 3 NJ 80 NJ 80 NJ
+preplace netloc axi_emif_0_zynq_req 1 1 3 400 110 880J 320 1190
+preplace netloc processing_system7_0_UART_0 1 2 2 NJ 580 NJ
+preplace netloc axi_protocol_convert_0_M_AXI 1 3 1 NJ 800
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 850 60n
+preplace netloc processing_system7_0_DDR 1 2 2 NJ 540 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 2 NJ 560 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 820 600n
+preplace netloc processing_system7_0_M_AXI_GP1 1 1 2 410 220 810
+levelinfo -pg 1 0 200 610 1040 1210
+pagesize -pg 1 -db -bbox -sgen -200 0 1370 880
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Sat Jan  6 21:32:24 2024
+# Process ID: 30488
+# Current directory: E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent47440 E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.xpr
+# Log file: E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/vivado.log
+# Journal file: E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_property PULLTYPE PULLDOWN [get_ports [list {mlvds_rx[1]}]]
+set_property PULLTYPE PULLDOWN [get_ports [list {mlvds_rx[0]}]]
+set_property OFFCHIP_TERM NONE [get_ports [list {mlvds_rx[1]}]]
+set_property OFFCHIP_TERM NONE [get_ports [list {mlvds_rx[0]}]]
+save_constraints
+close_design
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1

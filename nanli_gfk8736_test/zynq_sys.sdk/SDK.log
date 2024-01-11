@@ -1,0 +1,30 @@
+16:04:00 INFO  : Registering command handlers for SDK TCF services
+16:04:01 INFO  : Launching XSCT server: xsct.bat -interactive E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\temp_xsdb_launch_script.tcl
+16:04:03 INFO  : XSCT server has started successfully.
+16:04:03 INFO  : Successfully done setting XSCT server connection channel  
+16:04:03 INFO  : Successfully done setting SDK workspace  
+16:04:03 INFO  : Processing command line option -hwspec E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.sdk/top.hdf.
+15:49:59 INFO  : Launching XSCT server: xsct.bat -interactive E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\temp_xsdb_launch_script.tcl
+15:50:01 INFO  : XSCT server has started successfully.
+15:50:01 INFO  : Successfully done setting XSCT server connection channel  
+15:50:05 INFO  : Successfully done setting SDK workspace  
+15:50:06 INFO  : Registering command handlers for SDK TCF services
+15:50:06 INFO  : Processing command line option -hwspec E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.sdk/top.hdf.
+15:50:06 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+15:50:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1704557380126,  Project:1704266837759
+15:50:06 INFO  : The hardware specification for project 'top_hw_platform_0' is different from E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.sdk/top.hdf.
+15:50:06 INFO  : Copied contents of E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.sdk/top.hdf into \top_hw_platform_0\system.hdf.
+15:50:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:50:08 INFO  : Clearing existing target manager status.
+15:50:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:50:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:05:28 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\boot_bin\boot0109\BOOT.bin
+16:05:28 INFO  : Creating new bif file E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\boot_bin\boot0109\output.bif
+16:05:30 INFO  : Bootgen command execution is done.
+16:17:49 INFO  : Launching XSCT server: xsct.bat -interactive E:\PROJECT\mibus\ninli_fk\nanli_gfk8736_test\zynq_sys.sdk\temp_xsdb_launch_script.tcl
+16:17:51 INFO  : XSCT server has started successfully.
+16:17:51 INFO  : Successfully done setting XSCT server connection channel  
+16:17:51 INFO  : Successfully done setting SDK workspace  
+16:17:55 INFO  : Registering command handlers for SDK TCF services
+16:17:55 INFO  : Processing command line option -hwspec E:/PROJECT/mibus/ninli_fk/nanli_gfk8736_test/zynq_sys.sdk/top.hdf.
+16:17:55 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
